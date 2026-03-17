@@ -1,0 +1,23 @@
+3- Qual o resultado em tela apresentado pelo programa abaixo?
+int ff( int n)
+{
+if (n == 1) return 1;
+if (n % 2 == 0) return ff( n/2);
+return ff( (n-1)/2) + ff( (n+1)/2);
+}
+void main() {
+printf( "%d", ff(7));
+return;
+}
+
+R:O programa começa no ff(7). Como 7 é ímpar, a última linha do código divide ele em duas novas
+chamadas: ff(3) + ff(4).
+
+A partir daí, resolvemos cada lado:
+O lado do 4 (par): O código manda dividir por 2. Então ff(4) vira ff(2), que divide de novo e vira
+ff(1). O primeiro if diz que quando chega no 1, o resultado é 1.
+
+O lado do 3 (ímpar): A última linha divide o 3 em ff(1) + ff(2). Como já vimos, o ff(1) vale 1, e o ff(2)
+também vale 1. Então esse lado resulta em 2.
+
+Somando os dois lados que vieram lá do número 7, temos: 2 + 1 = 3.
