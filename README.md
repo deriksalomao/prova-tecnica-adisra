@@ -1,21 +1,22 @@
-# Resolução do Teste Técnico - Adisra
+# Technical Test Solution - Adisra
 
-Este repositório contém as soluções desenvolvidas por Derik Salomão Torres Belchior Guimarães para a prova de programação realizada em 17/03/2026.
+This repository contains the solutions developed by Derik Salomão Torres Belchior Guimarães for the programming test held on March 17, 2026.
 
-## Conteúdo do Repositório
+## Repository Content
 
-O projeto está organizado em arquivos individuais para facilitar a revisão de cada competência técnica solicitada:
+The project is organized into individual files to facilitate the review of each requested technical skill:
 
-1. **Questao1_Fibonacci.cs**: Implementação de um programa que calcula o número da sequência de Fibonacci para uma posição específica informada pelo usuário. Utiliza lógica iterativa para otimização de performance e o tipo de dado long para suportar valores elevados.
-2. **Questao2_Matriz.cs**: Função que processa uma matriz bidimensional, realiza a contagem de números pares e ímpares, e retorna a maior quantidade de ocorrências entre os dois tipos.
-3. **Questao3_Resposta.txt**: Documentação do teste de mesa realizado para uma função recursiva. Contém a explicação lógica que resulta no valor final 3 apresentado em tela.
-4. **Questao4_FabricaAutomoveis.cs**: Modelagem de classes utilizando os pilares de Programação Orientada a Objetos (Herança e Polimorfismo) para gerenciar dados de veículos e calcular custos de venda com diferentes alíquotas de impostos.
+1. **Question1_Fibonacci.cs**: Implementation of a program that calculates the Fibonacci sequence number for a specific position entered by the user. It uses iterative logic for performance optimization and the long data type to support large values.
 
-## Tecnologias Utilizadas
+2. **Question2_Matrix.cs**: Function that processes a two-dimensional matrix, counts even and odd numbers, and returns the largest number of occurrences of the two types.
 
-* Linguagem: C#
-* Ambiente de desenvolvimento: .NET Fiddle e editores de código compatíveis com .NET
+3. **Question3_Answer.txt**: Documentation of the desk check performed for a recursive function. Contains the logical explanation that results in the final value 3 displayed on the screen. 4. **Question4_AutomobileFactory.cs**: Class modeling using the pillars of Object-Oriented Programming (Inheritance and Polymorphism) to manage vehicle data and calculate sales costs with different tax rates.
 
-## Como Executar
+## Technologies Used
 
-Cada arquivo .cs contém uma classe e um método Main próprio para que possam ser testados de forma independente. Para executar, basta copiar o conteúdo do arquivo desejado em um compilador C# ou ambiente de execução .NET.
+* Language: C#
+* Development environment: .NET Fiddle and .NET compatible code editors
+
+## How to Run
+
+Each .cs file contains a class and its own Main method so that they can be tested independently. To run, simply copy the contents of the desired file into a C# compiler or .NET runtime environment.
